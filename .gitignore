@@ -1,7 +1,11 @@
 # Personal data (user fills these)
 cv.md
 cv-*.md
+article-digest.md
+voice-dna.md
+Search Criteria.md
 data/Company Watchlist.md
+data/follow-ups.md
 data/portals-removed-*.md
 data/applications.md
 data/applications.db
@@ -74,6 +78,9 @@ reports/*-RESERVED.md
 # OpenRouter runner — generated data (personal, never commit)
 data/model-blacklist.json
 
+# Compiled binaries
+dashboard/career-ops-dashboard
+
 # OS
 .DS_Store
 *.mov
@@ -93,3 +100,4 @@ package-lock.json
 
 # Planning (local scratchpad)
 plan/
+Search Criteria.md

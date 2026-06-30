@@ -8,7 +8,10 @@ These files contain your personal data, customizations, and work product. Update
 
 | File | Purpose |
 |------|---------|
-| `cv.md` | Your CV in markdown |
+| `cv.md` | Your CV in markdown (canonical — PM & Scrum Master DoD) |
+| `cv-pm-dod.md` | CV variant: Senior Program Manager — DoD |
+| `cv-sm-dod.md` | CV variant: Senior Scrum Master / RTE — DoD |
+| `cv-consultant.md` | CV variant: Senior Program Consultant — Federal |
 | `config/profile.yml` | Your identity, targets, comp range |
 | `modes/_profile.md` | Your archetypes, narrative, negotiation scripts |
 | `modes/_custom.md` | Your house rules, custom workflows & output preferences (procedural — survives updates) |
@@ -17,6 +20,7 @@ These files contain your personal data, customizations, and work product. Update
 | `interview-prep/story-bank.md` | Your accumulated STAR+R stories |
 | `interview-prep/{company}-{role}.md` | Company-specific interview prep reports (written by `/career-ops interview-prep`) |
 | `portals.yml` | Your customized company list |
+| `data/Company Watchlist.md` | Your curated DoD/federal company watchlist with tiers, ATS notes, and scan history |
 | `config/plugins.yml` | Your plugin activation toggles (opt-in; seeded from `config/plugins.example.yml`) |
 | `plugins.local/` | Your own / private plugins (never auto-updated) |
 | `plugins.lock` | Integrity pins + recorded consent for your enabled plugins (generated; never auto-updated) |
