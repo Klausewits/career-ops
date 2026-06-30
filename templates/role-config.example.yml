@@ -1,0 +1,83 @@
+# Role-config example for tailor-cv.mjs
+#
+# Copy this file and customize per-role. Keep one config per target role:
+#   config/roles/my-role-slug.yml
+#
+# Then generate HTML:
+#   node tailor-cv.mjs --role config/roles/my-role-slug.yml
+#
+# And a PDF:
+#   node generate-pdf.mjs output/my-role-slug.html output/my-role-slug.pdf --format=letter
+#
+# The output filename stem uses `slug:` (or falls back to {profile-name}-{config-filename}).
+
+slug: "candidate-role-slug"
+
+# 2-4 sentence summary. Lead with the angle most relevant to this role.
+# Use <strong>...</strong> for emphasis. HTML-safe.
+summary: >
+  Senior Program Manager with 15 years of delivery leadership across enterprise and federal programs.
+  Led cross-functional teams of 50+ delivering complex software programs on schedule and under budget.
+  PMP and SAFe certified. <strong>Ready to own end-to-end program delivery for [Company].</strong>
+
+# 4-8 chip-style pills shown under the summary. Lead with what the JD asks for.
+competencies:
+  - "Program Management"
+  - "Agile / SAFe"
+  - "Cross-functional leadership"
+  - "Scrum Master / RTE"
+  - "Risk management"
+  - "Stakeholder engagement"
+
+# Work experience. Bullets support inline <strong>...</strong> HTML.
+experience:
+  - company: "Current Company"
+    role: "Senior Program Manager"
+    period: "Jan 2020 – Present"
+    location: "Remote"
+    bullets:
+      - "Led <strong>50-person cross-functional program</strong> delivering [outcome] on time and 10% under budget."
+      - "Implemented SAFe framework across 3 Agile Release Trains, improving velocity 25%."
+      - "Managed $10M program budget with zero cost overruns across 4 fiscal years."
+
+  - company: "Previous Company"
+    role: "Program Manager"
+    period: "Mar 2016 – Dec 2019"
+    location: "Remote"
+    bullets:
+      - "Achievement with metric."
+      - "Achievement showing breadth."
+
+# Projects or key programs. Keep to 2-4.
+projects:
+  - title: "Enterprise Agile Transformation"
+    badge: "Program"
+    desc: "Led organization-wide Agile transformation across 8 teams, from CMMI waterfall to SAFe. Delivered first PI on schedule with 90% team satisfaction score."
+    tech: "SAFe, Jira, Confluence, PI Planning"
+
+# Education entries.
+education:
+  - title: "B.S. Computer Science"
+    org: "State University"
+    year: "2005"
+
+# Credentials / certifications.
+credentials:
+  - title: "Project Management Professional (PMP)"
+    org: "PMI"
+    year: "Active"
+  - title: "SAFe Practice Consultant (SPC)"
+    org: "Scaled Agile"
+    year: "Active"
+  - title: "Certified Scrum Master (CSM)"
+    org: "Scrum Alliance"
+    year: "Active"
+
+# Technical skills. Categorize deliberately.
+skills:
+  - label: "Agile / SAFe"
+    items: "SAFe SPC, PI Planning, Scrum, Kanban, RTE, Agile coaching"
+  - label: "Program Management"
+    items: "PMP, EVM, risk management, stakeholder engagement, CMMI"
+  - label: "Tools"
+    items: "Jira, Confluence, MS Project, SharePoint, Smartsheet"

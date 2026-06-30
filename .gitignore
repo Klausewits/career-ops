@@ -1,5 +1,8 @@
 # Personal data (user fills these)
 cv.md
+cv-*.md
+data/Company Watchlist.md
+data/portals-removed-*.md
 data/applications.md
 data/applications.db
 data/pipeline.md
